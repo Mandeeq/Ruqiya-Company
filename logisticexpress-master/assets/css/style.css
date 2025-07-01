@@ -344,6 +344,57 @@ p {
         font-size: 24px;
     }
 }
+/* WhatsApp Floating Button */
+.whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  left: 20px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+  transition: all 0.4s ease;
+}
+
+.whatsapp-float:hover {
+  background-color: #128C7E;
+  width: 200px;
+}
+
+.whatsapp-float i {
+  margin-top: 15px;
+}
+
+.whatsapp-text {
+  display: none;
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.whatsapp-float:hover .whatsapp-text {
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .whatsapp-float {
+    width: 50px;
+    height: 50px;
+    bottom: 30px;
+    left: 15px;
+    font-size: 25px;
+  }
+  
+  .whatsapp-float i {
+    margin-top: 12px;
+  }
+}
 .f-left {
   float: left;
 }
