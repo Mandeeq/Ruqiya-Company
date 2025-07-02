@@ -2904,7 +2904,7 @@ hero-btn {
 .categories-area .single-cat {
   border: 1px solid #e1ebf7;
   border-radius: 6px;
-  padding: 85px 22px;
+  padding: 5px 2px;
   -webkit-transition: all 0.4s ease-out 0s;
   -moz-transition: all 0.4s ease-out 0s;
   -ms-transition: all 0.4s ease-out 0s;
@@ -3404,7 +3404,7 @@ hero-btn {
 .testimonial-form {
   padding: 50px;
   border-radius: 10px;
-  background: #fff;
+ 
   padding: 50px;
   border-radius: 10px;
 }
